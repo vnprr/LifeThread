@@ -10,6 +10,8 @@ Explore this file to learn more about how data was processed, models were traine
 
 # Files
 
+This section contains description of files supplied within project.
+
 ## Datasets
 
 The project utilizes two datasets related to social media posts concerning depression and suicide.
@@ -92,20 +94,23 @@ After performing sentiment analysis, it was determined that while sentiment valu
 
 - **Need for More Robust Models**: To address the limitations, the decision was made to use more sophisticated classification models. These models could leverage additional features and patterns in the data beyond sentiment scores to improve accuracy and reliability.
 
-## Process of Model Training
-
-1. **Data Preparation**: The data used for sentiment analysis was further processed to extract relevant features for classification. This included combining the sentiment scores with other textual features from the posts.
-
-2. **Model Selection**: Various classification models were selected and trained, including:
-   - **Stochastic Gradient Descent (SGD)**
-   - **Naive Bayes**
-   - **Support Vector Classification (SVC)**
-   - **Pre-trained BERT and DistilBERT models**
-
-3. **Training and Evaluation**: Each model was trained on the processed dataset and evaluated based on its performance in classifying posts into different risk categories. The performance metrics helped in selecting the most effective model for the task.
-
 ## Outcome
 
 By moving from sentiment analysis to specialized classification models, the project aimed to achieve a more nuanced understanding of the data and improve the accuracy of suicide risk assessments. The new models incorporated multiple features and advanced techniques, leading to better performance in distinguishing between high and low-risk posts.
 
 # Life Thread Classifiers
+
+## Process of Model Training
+
+**Data Preparation**: The data used for sentiment analysis was further processed to extract relevant features for classification. This included combining the sentiment scores with other textual features from the posts.
+
+**Model Selection**: Various classification models were selected and trained, including:
+- **Simple ML Algotythms:**
+  - **Stochastic Gradient Descent (SGD)**
+  - **Naive Bayes**
+  - **Support Vector Classification (SVC)**
+- **Pre-trained Language Models:**
+  - **BERT**
+  - **DistilBERT**
+
+**Training and Evaluation**: Each model was trained on the processed dataset and evaluated based on its performance in classifying posts into different risk categories. The performance metrics helped in selecting the most effective model for the task.
