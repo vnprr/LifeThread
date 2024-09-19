@@ -102,15 +102,20 @@ By moving from sentiment analysis to specialized classification models, the proj
 
 ## Process of Model Training
 
-**Data Preparation**: The data used for sentiment analysis was further processed to extract relevant features for classification. This included combining the sentiment scores with other textual features from the posts.
+**Data Preparation**: The data used for sentiment analysis was dropped to train a text-based classification model.
 
 **Model Selection**: Various classification models were selected and trained, including:
-- **Simple ML Algotythms:**
-  - **Stochastic Gradient Descent (SGD)**
-  - **Naive Bayes**
-  - **Support Vector Classification (SVC)**
-- **Pre-trained Language Models:**
-  - **BERT**
-  - **DistilBERT**
+1. **Simple ML Algotythms:**
+  1. **Stochastic Gradient Descent (SGD)**
+  2. **Naive Bayes**
+  3. **Support Vector Classification (SVC)**
+2. **Pre-trained Language Models:**
+  1. **BERT**
+  2. **DistilBERT**
 
-**Training and Evaluation**: Each model was trained on the processed dataset and evaluated based on its performance in classifying posts into different risk categories. The performance metrics helped in selecting the most effective model for the task.
+##Simple Algotythms
+
+## 1.1. Stochastic Gradient Descent 
+ (SGD)
+Trained on 100% dataset
+Accuracy:
