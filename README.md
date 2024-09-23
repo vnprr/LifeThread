@@ -125,15 +125,19 @@ Accuracy:
 
 ## DistilBERT vs BERT
 
-### BERT trained on 20% of dataset
+### Accuracy and loss comparision
+| Metrics       | BERT 20%      | DistilBERT 20% |
+| ------------- | ------------- | -------------- |
+| Accuracy      | 0.9544        | 0.9510         |
+| Loss          | 0.1629        | 0.1384         |
+
+### Confusion Matrix
+
+#### BERT trained on 20% of dataset
+
 ![bert IMG](img/bert_0.2.png)
 
-### DistilBERT trained on 20% of dataset
+#### DistilBERT trained on 20% of dataset
+
 ![distilbert IMG](img/distilbert_0.2.png)
-
-| Metrics       | BERT          |
-| ------------- | ------------- |
-| Accuracy      | Content Cell  |
-| Loss          | Content Cell  |
-
 
