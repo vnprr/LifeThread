@@ -119,3 +119,19 @@ By moving from sentiment analysis to specialized classification models, the proj
  (SGD)
 Trained on 100% dataset
 Accuracy:
+
+
+## DistilBERT vs BERT
+
+### BERT trained on 20% of dataset
+![bert IMG](img/bert_0.2.png)
+
+### DistilBERT trained on 20% of dataset
+![distilbert IMG](img/distilbert_0.2.png)
+
+| Metrics       | BERT          |
+| ------------- | ------------- |
+| Accuracy      | Content Cell  |
+| Loss          | Content Cell  |
+
+
