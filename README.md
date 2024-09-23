@@ -72,6 +72,8 @@ Model and Tokenizer Retrieval: Initially, the pre-trained model and tokenizer we
 
 Visualization of the sentiment value distribution revealed that posts classified as suicidal tend to have lower sentiment values compared to non-suicidal posts. Histograms provided a visual representation of these differences.
 
+![Sentiment Distribution Histogram](/img/sentiment_analysis.png)
+
 ### Conclusions
 
 Non-suicidal posts (blue) have a higher concentration in the lower sentiment range (0-0.5), implying safer sentiment.
@@ -113,7 +115,7 @@ By moving from sentiment analysis to specialized classification models, the proj
   1. **BERT**
   2. **DistilBERT**
 
-##Simple Algotythms
+## Simple Algotythms
 
 ## 1.1. Stochastic Gradient Descent 
  (SGD)
