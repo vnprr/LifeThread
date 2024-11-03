@@ -117,12 +117,12 @@ By moving from sentiment analysis to specialized classification models, the proj
 
 **Model Selection**: Various classification models were selected and trained, including:
 1. **Simple ML Algotythms:**
-  1. **Stochastic Gradient Descent (SGD)**
-  2. **Naive Bayes**
-  3. **Support Vector Classification (SVC)**
+  1.1. **Stochastic Gradient Descent (SGD)**
+  1.2. **Naive Bayes**
+  1.3. **Support Vector Classification (SVC)**
 2. **Pre-trained Language Models:**
-  1. **BERT**
-  2. **DistilBERT**
+  2.1. **BERT**
+  2.2. **DistilBERT**
 
 ## ML Models
 
