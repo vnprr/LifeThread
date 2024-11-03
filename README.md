@@ -116,13 +116,13 @@ By moving from sentiment analysis to specialized classification models, the proj
 **Data Preparation**: The data used for sentiment analysis was dropped to train a text-based classification model.
 
 **Model Selection**: Various classification models were selected and trained, including:
-1. **Simple ML Algotythms:**
-  1.1. **Stochastic Gradient Descent (SGD)**
-  1.2. **Naive Bayes**
-  1.3. **Support Vector Classification (SVC)**
-2. **Pre-trained Language Models:**
-  2.1. **BERT**
-  2.2. **DistilBERT**
+* **Simple ML Algotythms:**
+  * **Stochastic Gradient Descent (SGD)**
+  * **Naive Bayes**
+  * **Support Vector Classification (SVC)**
+* **Pre-trained Language Models:**
+  * **BERT**
+  * **DistilBERT**
 
 ## ML Models
 
